@@ -1,0 +1,42 @@
+.site-header {
+    padding-top: 10px;
+    background-color: var(--header-bg-color);
+}
+
+.site-header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-nav__list {
+    margin: 0;
+    display: flex;
+    gap: 40px;
+}
+
+.site-nav__link {
+    font-size: 14px;
+    line-height: 16px;
+    color: #150101;
+    opacity: 0.6;
+}
+
+.site-nav__link:hover {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    color: var(--btn-bg-color);
+}
+
+.header__btn {
+    padding: 14px 50px 13px 50px;
+    border: none;
+    background: var(--btn-bg-color);
+    border-radius: 5px;
+    font-family: 'Hind Madurai';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: var(--btn-text-color);
+}

@@ -1,3 +1,9 @@
+:root {
+  --btn-bg-color:#D23166;
+  --btn-text-color:#FAFAFA;
+  --header-bg-color: #FCF1F4;
+}
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -338,7 +344,56 @@ template {
   display: none;
 }
 
-/* FONTS */ /* GENERAL */
+/* FONTS */
+/* roboto-regular - latin */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/roboto-v30-latin-regular.eot"); /* IE9 Compat Modes */
+  src: local(""), url("../fonts/roboto-v30-latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-v30-latin-regular.woff2") format("woff2"), url("../fonts/roboto-v30-latin-regular.woff") format("woff"), url("../fonts/roboto-v30-latin-regular.ttf") format("truetype"), url("../fonts/roboto-v30-latin-regular.svg#Roboto") format("svg"); /* Legacy iOS */
+}
+/* roboto-500 - latin */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/roboto-v30-latin-500.eot"); /* IE9 Compat Modes */
+  src: local(""), url("../fonts/roboto-v30-latin-500.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-v30-latin-500.woff2") format("woff2"), url("../fonts/roboto-v30-latin-500.woff") format("woff"), url("../fonts/roboto-v30-latin-500.ttf") format("truetype"), url("../fonts/roboto-v30-latin-500.svg#Roboto") format("svg"); /* Legacy iOS */
+}
+/* roboto-700 - latin */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/roboto-v30-latin-700.eot"); /* IE9 Compat Modes */
+  src: local(""), url("../fonts/roboto-v30-latin-700.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-v30-latin-700.woff2") format("woff2"), url("../fonts/roboto-v30-latin-700.woff") format("woff"), url("../fonts/roboto-v30-latin-700.ttf") format("truetype"), url("../fonts/roboto-v30-latin-700.svg#Roboto") format("svg"); /* Legacy iOS */
+}
+/* hind-madurai-regular - latin */
+@font-face {
+  font-family: "Hind Madurai";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/hind-madurai-v11-latin-regular.eot"); /* IE9 Compat Modes */
+  src: local(""), url("../fonts/hind-madurai-v11-latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/hind-madurai-v11-latin-regular.woff2") format("woff2"), url("../fonts/hind-madurai-v11-latin-regular.woff") format("woff"), url("../fonts/hind-madurai-v11-latin-regular.ttf") format("truetype"), url("../fonts/hind-madurai-v11-latin-regular.svg#HindMadurai") format("svg"); /* Legacy iOS */
+}
+/* hind-madurai-600 - latin */
+@font-face {
+  font-family: "Hind Madurai";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/hind-madurai-v11-latin-600.eot"); /* IE9 Compat Modes */
+  src: local(""), url("../fonts/hind-madurai-v11-latin-600.eot?#iefix") format("embedded-opentype"), url("../fonts/hind-madurai-v11-latin-600.woff2") format("woff2"), url("../fonts/hind-madurai-v11-latin-600.woff") format("woff"), url("../fonts/hind-madurai-v11-latin-600.ttf") format("truetype"), url("../fonts/hind-madurai-v11-latin-600.svg#HindMadurai") format("svg"); /* Legacy iOS */
+}
+/* fredoka-one-regular - latin */
+@font-face {
+  font-family: "Fredoka One";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/fredoka-one-v13-latin-regular.eot"); /* IE9 Compat Modes */
+  src: local(""), url("../fonts/fredoka-one-v13-latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/fredoka-one-v13-latin-regular.woff2") format("woff2"), url("../fonts/fredoka-one-v13-latin-regular.woff") format("woff"), url("../fonts/fredoka-one-v13-latin-regular.ttf") format("truetype"), url("../fonts/fredoka-one-v13-latin-regular.svg#FredokaOne") format("svg"); /* Legacy iOS */
+}
+/* GENERAL */
 html {
   box-sizing: border-box;
   height: 100%;
@@ -358,13 +413,23 @@ body {
   padding: 0;
   margin: 0;
   overflow-x: hidden;
-  font-family: "Arial", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
   background-color: #fff;
 }
 
 img {
   max-width: 100%;
   height: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
 }
 
 /* VISUALLY-HIDDEN */
@@ -382,9 +447,52 @@ img {
 /* CONTAINER */
 .container {
   width: 100%;
-  max-width: 900px;
-  padding-left: 50px;
-  padding-right: 50px;
+  max-width: 1165px;
+  padding-left: 20px;
+  padding-right: 20px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.site-header {
+  padding-top: 10px;
+  background-color: var(--header-bg-color);
+}
+
+.site-header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site-nav__list {
+  margin: 0;
+  display: flex;
+  gap: 40px;
+}
+
+.site-nav__link {
+  font-size: 14px;
+  line-height: 16px;
+  color: #150101;
+  opacity: 0.6;
+}
+
+.site-nav__link:hover {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  color: var(--btn-bg-color);
+}
+
+.header__btn {
+  padding: 14px 50px 13px 50px;
+  border: none;
+  background: var(--btn-bg-color);
+  border-radius: 5px;
+  font-family: "Hind Madurai";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  color: var(--btn-text-color);
 }/*# sourceMappingURL=main.css.map */
