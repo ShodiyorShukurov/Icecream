@@ -380,13 +380,24 @@
                     <h2 class="question-section__title">
                         Have Question in Mind? Let us help you
                     </h2>
-                    <form action="https://echo.htmlacademy.ru/courses" method="POST">
-                        <label>
-                            <input class="main-section__input" type="" name="name" minlength="2"
-                                placeholder="Your phone number" required>
-                            
-                        </label>
-                    </form>
+                    <div class="question-section__form">
+                        <form action="https://echo.htmlacademy.ru/courses" method="get">
+                            <label for="number"></label>
+                            <input class="question-section__input" type="tel" name="number" id="number"
+                                placeholder="Your phone number">
+                        </form>
+                        <select class="qustion-section__select" name="text" id="text" aria-placeholder="Question type">
+                            <option value="0">Question type</option>
+                            <option value="1">Ice cream</option>
+                        </select>
+
+                        <form class="form" action="https://echo.htmlacademy.ru/courses" method="get">
+                            <input class="question-section__text" type="text" name="question"
+                                placeholder="Enter your question">
+                            <button class="question-section__btn" type="submit">Send</button>
+                        </form>
+                    </div>
+
                 </div>
             </div>
         </section>

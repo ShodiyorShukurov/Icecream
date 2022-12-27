@@ -994,6 +994,7 @@ ul {
 
 .question-section__wrapper {
   padding-top: 150px;
+  padding-bottom: 71px;
   text-align: center;
 }
 
@@ -1006,6 +1007,65 @@ ul {
   font-size: 44px;
   line-height: 52px;
   color: var(--our-text-color);
+}
+
+.question-section__form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.question-section__input {
+  padding: 29px 156px 29px 25px;
+  background-color: #FFFFFF;
+  border: 2px solid #FFA3A3;
+  border-radius: 5px;
+  font-size: 14px;
+  line-height: 16px;
+  color: #0F0000;
+  opacity: 0.6;
+}
+
+.qustion-section__select {
+  padding: 29px 192px 29px 25px;
+  background-color: #FFFFFF;
+  border: 2px solid #FFA3A3;
+  border-radius: 5px;
+  font-size: 14px;
+  line-height: 16px;
+  color: #0F0000;
+  opacity: 0.6;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+}
+
+.question-section__text {
+  padding: 29px 395px 29px 25px;
+  background-color: #FFFFFF;
+  border: 2px solid #FFA3A3;
+  border-right: none;
+  border-radius: 5px 0 0 5px;
+  font-size: 14px;
+  line-height: 16px;
+  color: #0F0000;
+  opacity: 0.6;
+}
+
+.question-section__btn {
+  padding: 27px 31px 28px 46px;
+  background-color: var(--main-btn-color);
+  border: none;
+  border-radius: 0 5px 5px 0;
+  margin-left: 0;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  color: var(--btn-text-color);
 }
 
 /************** QUESTION SECTION STYLES END ***********//*# sourceMappingURL=main.css.map */
