@@ -1,7 +1,9 @@
 :root {
-  --btn-bg-color:#D23166;
-  --btn-text-color:#FAFAFA;
+  --btn-bg-color: #D23166;
+  --btn-text-color: #FAFAFA;
   --header-bg-color: #FCF1F4;
+  --hero-text-color: #0F0101;
+  --main-btn-color: #D64374;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -487,12 +489,248 @@ ul {
 
 .header__btn {
   padding: 14px 50px 13px 50px;
-  border: none;
   background: var(--btn-bg-color);
+  border: none;
   border-radius: 5px;
   font-family: "Hind Madurai";
   font-weight: 700;
   font-size: 16px;
   line-height: 22px;
   color: var(--btn-text-color);
-}/*# sourceMappingURL=main.css.map */
+}
+
+/*********** MAIN STAYLES SART ***********/
+.site-main {
+  flex-grow: 1;
+  background-color: #fff;
+}
+
+/*********** MAIN STAYLES END ***********/
+/************ HERO SECTION STYLES START ************/
+.hero-section {
+  position: relative;
+  background-color: var(--header-bg-color);
+}
+
+.hero-section__wrapper {
+  padding-top: 196px;
+  padding-bottom: 213px;
+}
+
+.hero-section__subtitle {
+  margin-top: 0;
+  margin-bottom: 6px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.1em;
+  color: var(--hero-text-color);
+}
+
+.hero-section__title {
+  margin-top: 0;
+  margin-bottom: 35px;
+  width: 100%;
+  max-width: 665px;
+  font-family: "Fredoka One";
+  font-size: 57.33px;
+  line-height: 120.5%;
+  color: var(--hero-text-color);
+  opacity: 0.9;
+}
+
+.hero-section__title--text {
+  color: var(--btn-bg-color);
+}
+
+.hero-section-text {
+  margin-top: 0;
+  margin-bottom: 50px;
+  width: 100%;
+  max-width: 523px;
+  font-family: "Hind Madurai";
+  font-size: 18px;
+  line-height: 27px;
+  color: var(--hero-text-color);
+  opacity: 0.6;
+}
+
+.hero-section__btn {
+  padding: 13px 50px 19px 50px;
+  border: none;
+  border-radius: 5px;
+  background-color: var(--btn-bg-color);
+  font-family: "Hind Madurai";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  color: var(--btn-text-color);
+}
+
+.hero-section-img {
+  position: absolute;
+  top: 40px;
+  right: 0;
+}
+
+/************ HERO SECTION STYLES SEND ************/
+/********** CARDS SECTION STYLES START*************/
+.cards-section {
+  background-color: #FFFFFF;
+}
+
+.cards-section__list {
+  margin: 0;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cards-section__item {
+  padding-bottom: 27px;
+  padding-left: 26px;
+  padding-right: 26px;
+  background-color: #FFFFFF;
+  text-align: center;
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.03);
+  border-radius: 7px;
+  transition: all 0.3s;
+}
+
+.cards-section__item:hover {
+  background-color: var(--header-bg-color);
+}
+
+.car-logo {
+  padding-top: 33px;
+}
+
+.box-logo {
+  padding-top: 35px;
+}
+
+.cash-back__logo {
+  padding-top: 33px;
+}
+
+.fast-delivery {
+  padding-top: 27px;
+}
+
+.cards-section__item:nth-child(1):before {
+  padding-top: 33px;
+  width: 51px;
+  height: 43px;
+  content: url(../../images/logo/car-logo.svg);
+}
+
+.cards-section__item:nth-child(2):before {
+  width: 27px;
+  height: 42px;
+  content: url(../../images/logo/box.svg);
+}
+
+.cards-section__item:nth-child(3):before {
+  width: 44px;
+  height: 44px;
+  content: url(../../images/logo/cash-back.svg);
+}
+
+.cards-section__item:nth-child(4):before {
+  width: 54px;
+  height: 54px;
+  content: url(../../images/logo/fast-delivery.svg);
+}
+
+.cards-section__title {
+  margin-top: 0;
+  margin-bottom: 9px;
+  font-family: "Hind Madurai";
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  color: #000000;
+}
+
+.car {
+  margin-top: 25px;
+}
+
+.box {
+  margin-top: 23px;
+}
+
+.cash-back {
+  margin-top: 23px;
+}
+
+.fast-delivery {
+  margin-top: 18px;
+}
+
+.cards-section__text {
+  margin: 0;
+  width: 100%;
+  max-width: 198px;
+  font-family: "Hind Madurai";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  color: #000000;
+  opacity: 0.6;
+}
+
+/********** CARDS SECTION STYLES END*************/
+/*************** BROWN SUGAR STYLES START *************/
+.brown-sugar {
+  position: relative;
+  padding-top: 141px;
+  padding-bottom: 146px;
+  background-color: var(--header-bg-color);
+}
+
+.brown-sugar__title {
+  margin-top: 0;
+  margin-bottom: 16px;
+  width: 100%;
+  max-width: 349px;
+  font-family: "Hind Madurai";
+  font-weight: 600;
+  font-size: 44.2px;
+  line-height: 49px;
+  color: #150101;
+}
+
+.brown-sugar__text {
+  margin-top: 0;
+  margin-bottom: 30px;
+  width: 100%;
+  max-width: 449px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #150101;
+  opacity: 0.6;
+}
+
+.brown-sugar__btn {
+  padding: 15px 42px 15px 41px;
+  background-color: var(--main-btn-color);
+  border: none;
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: var(--btn-text-color);
+}
+
+.brown-sugar__img {
+  position: absolute;
+  top: -40px;
+  right: 145px;
+}
+
+/*************** BROWN SUGAR STYLES END *************//*# sourceMappingURL=main.css.map */

@@ -1,0 +1,111 @@
+/********** CARDS SECTION STYLES START*************/
+.cards-section {
+    background-color: #FFFFFF;
+}
+
+.cards-section__list {
+    margin: 0;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cards-section__item {
+    padding-bottom: 27px;
+    padding-left: 26px;
+    padding-right: 26px;
+    background-color: #FFFFFF;
+    text-align: center;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.03);
+    border-radius: 7px;
+    transition: all 0.3s;
+}
+
+.cards-section__item:hover {
+    background-color: var(--header-bg-color);
+}
+
+.car-logo {
+    padding-top: 33px;
+}
+
+.box-logo {
+    padding-top: 35px;
+}
+
+.cash-back__logo {
+    padding-top: 33px;
+}
+
+.fast-delivery {
+    padding-top: 27px;
+}
+
+.cards-section__item:nth-child(1):before {
+    padding-top: 33px;
+    width: 51px;
+    height: 43px;
+    content: url(../../images/logo/car-logo.svg);
+}
+
+.cards-section__item:nth-child(2):before {
+    width: 27px;
+    height: 42px;
+    content: url(../../images/logo/box.svg);
+}
+
+.cards-section__item:nth-child(3):before {
+    width: 44px;
+    height: 44px;
+    content: url(../../images/logo/cash-back.svg);
+}
+
+.cards-section__item:nth-child(4):before {
+    width: 54px;
+    height: 54px;
+    content: url(../../images/logo/fast-delivery.svg);
+}
+
+.cards-section__title {
+    margin-top: 0;
+    margin-bottom: 9px;
+    font-family: 'Hind Madurai';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.car {
+    margin-top: 25px;
+}
+
+.box {
+    margin-top: 23px;
+}
+
+.cash-back {
+    margin-top: 23px;
+}
+
+.fast-delivery {
+    margin-top: 18px;
+}
+
+.cards-section__text {
+    margin: 0;
+    width: 100%;
+    max-width: 198px;
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #000000;
+    opacity: 0.6;
+}
+
+/********** CARDS SECTION STYLES END*************/

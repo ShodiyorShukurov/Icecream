@@ -1,0 +1,66 @@
+/************ HERO SECTION STYLES START ************/
+.hero-section {
+    position: relative;
+    background-color: var(--header-bg-color);
+}
+.hero-section__wrapper{
+    padding-top: 196px;
+    padding-bottom: 213px;
+}
+.hero-section__subtitle {
+    margin-top: 0;
+    margin-bottom: 6px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+    color: var(--hero-text-color);
+}
+
+.hero-section__title {
+    margin-top: 0;
+    margin-bottom: 35px;
+    width: 100%;
+    max-width: 665px;
+    font-family: 'Fredoka One';
+    font-size: 57.33px;
+    line-height: 120.5%;
+    color: var(--hero-text-color);
+    opacity: 0.9;
+}
+
+.hero-section__title--text {
+    color: var(--btn-bg-color);
+}
+
+.hero-section-text {
+    margin-top: 0;
+    margin-bottom: 50px;
+    width: 100%;
+    max-width: 523px;
+    font-family: 'Hind Madurai';
+    font-size: 18px;
+    line-height: 27px;
+    color: var(--hero-text-color);
+    opacity: 0.6;
+}
+
+.hero-section__btn {
+    padding: 13px 50px 19px 50px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--btn-bg-color);
+    font-family: 'Hind Madurai';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: var(--btn-text-color);
+}
+.hero-section-img{
+    width: 880px;
+    height: 730px;
+    position: absolute;
+    top: 40px;
+    right: 0;
+}
+/************ HERO SECTION STYLES SEND ************/

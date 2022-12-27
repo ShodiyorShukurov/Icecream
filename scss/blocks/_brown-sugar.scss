@@ -1,0 +1,51 @@
+/*************** BROWN SUGAR STYLES START *************/
+.brown-sugar {
+    position: relative;
+    padding-top: 141px;
+    padding-bottom: 146px;
+    background-color: var(--header-bg-color);
+}
+
+.brown-sugar__title {
+    margin-top: 0;
+    margin-bottom: 16px;
+    width: 100%;
+    max-width: 349px;
+    font-family: 'Hind Madurai';
+    font-weight: 600;
+    font-size: 44.2px;
+    line-height: 49px;
+    color: #150101;
+}
+
+.brown-sugar__text {
+    margin-top: 0;
+    margin-bottom: 30px;
+    width: 100%;
+    max-width: 449px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #150101;
+    opacity: 0.6;
+}
+
+.brown-sugar__btn {
+    padding: 15px 42px 15px 41px;
+    background-color: var(--main-btn-color);
+    border: none;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--btn-text-color);
+}
+
+.brown-sugar__img {
+    width: 655px;
+     height:580px;
+    position: absolute;
+    top: - 40px;
+    right: 145px;
+}
+
+/*************** BROWN SUGAR STYLES END *************/
