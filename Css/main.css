@@ -507,7 +507,6 @@ ul {
   background-color: #fff;
 }
 
-/*********** MAIN STAYLES END ***********/
 /************ HERO SECTION STYLES START ************/
 .hero-section {
   position: relative;
@@ -1068,4 +1067,121 @@ ul {
   color: var(--btn-text-color);
 }
 
-/************** QUESTION SECTION STYLES END ***********//*# sourceMappingURL=main.css.map */
+/************** QUESTION SECTION STYLES END ***********/
+/************** MAIN STYLES END ************/
+/************** FOOTER STYLES START ***********/
+.site-footer {
+  background-color: #0A0808;
+}
+
+.site-footer__wrapper {
+  padding-top: 70px;
+  padding-bottom: 104px;
+}
+
+.site-footer__list {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+
+.links {
+  padding-top: 75px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.information {
+  padding-top: 80px;
+}
+
+.forms {
+  padding-top: 60px;
+}
+
+.site-footer__logo-text {
+  margin-top: 9px;
+  margin-bottom: 25px;
+  width: 100%;
+  max-width: 207px;
+  font-size: 12px;
+  line-height: 17px;
+  letter-spacing: 0.01em;
+  color: var(--btn-text-color);
+  opacity: 0.7;
+}
+
+.site-footer__logo--title {
+  margin-top: 0;
+  margin-bottom: 8px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: var(--btn-text-color);
+}
+
+.site-footer__logo--links {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.site-footer__text--link {
+  font-size: 12px;
+  line-height: 14px;
+  color: var(--btn-text-color);
+  opacity: 0.7;
+  transition: all 0.3s;
+}
+
+.site-footer__text--link:hover {
+  opacity: 1;
+}
+
+.site-footer__email--title {
+  margin-top: 0;
+  margin-bottom: 13px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: var(--btn-text-color);
+}
+
+.site-footer__form {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.site-footer__input {
+  padding: 20px 164px 19px 32px;
+  opacity: 0.5;
+  background-color: transparent;
+  border: 2px solid var(--main-btn-color);
+  border-right: none;
+  border-radius: 5px 0 0 5px;
+  font-size: 14px;
+  line-height: 16px;
+  color: var(--btn-text-color);
+  opacity: 0.6;
+}
+
+.site-footer__btn {
+  padding: 20px 18px 16px 17px;
+  border: none;
+  background: var(--btn-bg-color);
+  border-radius: 0 5px 5px 0;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  color: var(--btn-text-color);
+}
+
+.site-footer__card--links {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+/************** FOOTER STYLES END ***********//*# sourceMappingURL=main.css.map */
