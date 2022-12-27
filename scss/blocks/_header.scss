@@ -20,7 +20,8 @@
     line-height: 16px;
     color: #150101;
     opacity: 0.6;
-}
+    transition: all 0.3s;
+} 
 
 .site-nav__link:hover {
     font-weight: 700;
