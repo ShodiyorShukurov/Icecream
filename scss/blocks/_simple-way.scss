@@ -9,12 +9,11 @@
     padding-bottom: 120px;
     display: flex;
     justify-content: space-between;
-
 }
 
 .rasberry-img {
     position: absolute;
-    border-radius: 27px;
+    border-radius: 30px;
     top: 50px;
     left: calc(50% - 580px);
 }
@@ -46,11 +45,16 @@
     gap: 10px;
 }
 
-.simple-way__item:nth-child(2) {
-    margin: 15px 0;
+.simple-way__list {
+    margin: 0;
+}
+
+.simple-way__item:nth-child(1) {
+    margin-bottom: 15px;
 }
 
 .simple-way__item:nth-child(3) {
+    margin-top: 15px;
     margin-bottom: 39px;
 }
 
@@ -67,6 +71,8 @@
     align-items: center;
 }
 
+
+
 .simple-way__logo {
     display: flex;
     justify-content: center;
@@ -75,6 +81,83 @@
     height: 30px;
     border-radius: 5px;
     background-color: #ffffff;
+}
+
+@media only screen and (max-width: 1200px) {
+    .simple-way__wrapper {
+        text-align: center;
+        padding-top: 690px;
+        flex-direction: column;
+    }
+
+    .rasberry-img {
+        top: 25px;
+        left: calc(50% - 165px);
+    }
+
+    .simple-way__title {
+        font-size: 38px;
+        line-height: 48px;
+    }
+
+    .simple-way__text {
+        margin: 0 auto;
+        margin-bottom: 29px;
+    }
+
+    .simple-way__item {
+        justify-content: center;
+    }
+
+    .simple-way__item-link {
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .simple-way__wrapper {
+        padding-top: 550px;
+        padding-bottom: 90px;
+    }
+
+    .rasberry-img {
+        width: 240px;
+        height: 500px;
+        top: 25px;
+        left: calc(50% - 130px);
+    }
+
+    .simple-way__title {
+        margin-bottom: 15px;
+        font-size: 25px;
+        line-height: 38px;
+    }
+
+    .simple-way__text {
+        margin-bottom: 20px;
+        font-size: 17px;
+        line-height: 20px;
+    }
+
+    .simple-way__cards-text {
+        font-size: 17px;
+        line-height: 20px;
+    }
+
+    .simple-way__item-link {
+        flex-direction: column;
+        gap: 2px;
+    }
+
+    .play-market {
+        width: 150px;
+        height: 60px;
+    }
+
+    .app-store {
+        width: 130px;
+        height: 77px;
+    }
 }
 
 /********** SIMPLE WAY SECTION END *************/
