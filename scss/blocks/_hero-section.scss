@@ -3,10 +3,12 @@
     position: relative;
     background-color: var(--header-bg-color);
 }
-.hero-section__wrapper{
+
+.hero-section__wrapper {
     padding-top: 196px;
     padding-bottom: 213px;
 }
+
 .hero-section__subtitle {
     margin-top: 0;
     margin-bottom: 6px;
@@ -56,11 +58,91 @@
     line-height: 22px;
     color: var(--btn-text-color);
 }
-.hero-section-img{
+
+.hero-section-img {
     width: 880px;
     height: 730px;
     position: absolute;
     top: 40px;
-    right: 0;
+    right: calc(50% - 770px);
+    overflow: hidden;
 }
+
+@media only screen and (max-width: 1000px) {
+    .hero-section__wrapper {
+        padding-top: 705px;
+        text-align: center;
+    }
+
+    .hero-section__title {
+        margin: 0 auto;
+        margin-bottom: 20px;
+        font-size: 40px;
+        line-height: 100%;
+    }
+
+    .hero-section-text {
+        margin: 0 auto;
+        margin-bottom: 40px;
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .hero-section-img {
+        width: 600px;
+        height: 700px;
+        position: absolute;
+        top: 40px;
+        left: calc(50% - 310px);
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .hero-section__wrapper {
+        padding-top: 440px;
+        padding-bottom: 120px;
+    }
+
+    .hero-section__title {
+        margin: 0 auto;
+        margin-bottom: 15px;
+        font-size: 28px;
+        line-height: 95%;
+    }
+
+    .hero-section-text {
+        margin: 0 auto;
+        margin-bottom: 30px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .hero-section__btn {
+        padding: 10px 40px 10px 40px;
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .hero-section-img {
+        width: 400px;
+        height: 400px;
+        top: 40px;
+        left: calc(50% - 200px);
+    }
+}
+
+@media only screen and (max-width: 370px) {
+    .hero-section__wrapper {
+        padding-top: 320px;
+
+    }
+
+    .hero-section-img {
+        width: 240px;
+        height: 300px;
+        top: 40px;
+        left: calc(50% - 130px);
+    }
+}
+
 /************ HERO SECTION STYLES SEND ************/

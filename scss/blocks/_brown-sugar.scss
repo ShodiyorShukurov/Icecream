@@ -42,10 +42,45 @@
 
 .brown-sugar__img {
     width: 655px;
-     height:580px;
+    height: 580px;
     position: absolute;
-    top: - 40px;
-    right: 145px;
+    top: 0;
+    right: calc(50% - 600px);
+}
+
+@media only screen and (max-width: 1100px) {
+    .brown-sugar {
+        padding-top: 410px;
+        text-align: center;
+    }
+
+    .brown-sugar__title {
+        margin: 0 auto;
+        margin-bottom: 13px;
+        font-size: 35px;
+        line-height: 38px;
+    }
+
+    .brown-sugar__text {
+        margin: 0 auto;
+        margin-bottom: 25px;
+        line-height: 20px;
+    }
+
+    .brown-sugar__img {
+        width: 600px;
+        height: 500px;
+        position: absolute;
+        top: 0;
+        left: calc(50% - 315px);
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .brown-sugar__img {
+        width: 400px;
+        height: 300px;
+    }
 }
 
 /*************** BROWN SUGAR STYLES END *************/

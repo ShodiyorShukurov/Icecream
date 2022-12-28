@@ -1,4 +1,4 @@
-/********** CARDS SECTION STYLES START*************/
+/********** CARDS SECTION STYLES START *************/
 .cards-section {
     background-color: #FFFFFF;
 }
@@ -8,8 +8,10 @@
     padding-top: 100px;
     padding-bottom: 100px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 39px;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .cards-section__item {
@@ -108,4 +110,12 @@
     opacity: 0.6;
 }
 
-/********** CARDS SECTION STYLES END*************/
+@media only screen and (max-width: 1000px) {
+    .cards-section__list {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+/********** CARDS SECTION STYLES END *************/

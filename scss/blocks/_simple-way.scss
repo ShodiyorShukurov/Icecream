@@ -16,7 +16,7 @@
     position: absolute;
     border-radius: 27px;
     top: 50px;
-    left: 190px;
+    left: calc(50% - 580px);
 }
 
 .simple-way__title {
@@ -62,7 +62,7 @@
 }
 
 
-.simple-way__link {
+.simple-way__item--link {
     display: flex;
     align-items: center;
 }

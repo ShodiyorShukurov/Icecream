@@ -457,6 +457,7 @@ ul {
   margin-right: auto;
 }
 
+/*********** HEADER STYLES START ************/
 .site-header {
   padding-top: 10px;
   background-color: var(--header-bg-color);
@@ -501,6 +502,22 @@ ul {
   color: var(--btn-text-color);
 }
 
+.humburger__btn {
+  display: none;
+}
+
+@media only screen and (max-width: 800px) {
+  .site-nav {
+    display: none;
+  }
+  .header__btn {
+    display: none;
+  }
+  .humburger__btn {
+    display: block;
+  }
+}
+/*********** HEADER STYLES END ************/
 /*********** MAIN STAYLES SART ***********/
 .site-main {
   flex-grow: 1;
@@ -573,11 +590,77 @@ ul {
   height: 730px;
   position: absolute;
   top: 40px;
-  right: 0;
+  right: calc(50% - 770px);
+  overflow: hidden;
 }
 
+@media only screen and (max-width: 1000px) {
+  .hero-section__wrapper {
+    padding-top: 705px;
+    text-align: center;
+  }
+  .hero-section__title {
+    margin: 0 auto;
+    margin-bottom: 20px;
+    font-size: 40px;
+    line-height: 100%;
+  }
+  .hero-section-text {
+    margin: 0 auto;
+    margin-bottom: 40px;
+    font-size: 16px;
+    line-height: 25px;
+  }
+  .hero-section-img {
+    width: 600px;
+    height: 700px;
+    position: absolute;
+    top: 40px;
+    left: calc(50% - 310px);
+  }
+}
+@media only screen and (max-width: 600px) {
+  .hero-section__wrapper {
+    padding-top: 440px;
+    padding-bottom: 120px;
+  }
+  .hero-section__title {
+    margin: 0 auto;
+    margin-bottom: 15px;
+    font-size: 28px;
+    line-height: 95%;
+  }
+  .hero-section-text {
+    margin: 0 auto;
+    margin-bottom: 30px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .hero-section__btn {
+    padding: 10px 40px 10px 40px;
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .hero-section-img {
+    width: 400px;
+    height: 400px;
+    top: 40px;
+    left: calc(50% - 200px);
+  }
+}
+@media only screen and (max-width: 370px) {
+  .hero-section__wrapper {
+    padding-top: 320px;
+  }
+  .hero-section-img {
+    width: 240px;
+    height: 300px;
+    top: 40px;
+    left: calc(50% - 130px);
+  }
+}
 /************ HERO SECTION STYLES SEND ************/
-/********** CARDS SECTION STYLES START*************/
+/********** CARDS SECTION STYLES START *************/
 .cards-section {
   background-color: #FFFFFF;
 }
@@ -587,8 +670,10 @@ ul {
   padding-top: 100px;
   padding-bottom: 100px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 39px;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .cards-section__item {
@@ -687,7 +772,14 @@ ul {
   opacity: 0.6;
 }
 
-/********** CARDS SECTION STYLES END*************/
+@media only screen and (max-width: 1000px) {
+  .cards-section__list {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+}
+/********** CARDS SECTION STYLES END *************/
 /*************** BROWN SUGAR STYLES START *************/
 .brown-sugar {
   position: relative;
@@ -734,10 +826,40 @@ ul {
   width: 655px;
   height: 580px;
   position: absolute;
-  top: -40px;
-  right: 145px;
+  top: 0;
+  right: calc(50% - 600px);
 }
 
+@media only screen and (max-width: 1100px) {
+  .brown-sugar {
+    padding-top: 410px;
+    text-align: center;
+  }
+  .brown-sugar__title {
+    margin: 0 auto;
+    margin-bottom: 13px;
+    font-size: 35px;
+    line-height: 38px;
+  }
+  .brown-sugar__text {
+    margin: 0 auto;
+    margin-bottom: 25px;
+    line-height: 20px;
+  }
+  .brown-sugar__img {
+    width: 600px;
+    height: 500px;
+    position: absolute;
+    top: 0;
+    left: calc(50% - 315px);
+  }
+}
+@media only screen and (max-width: 600px) {
+  .brown-sugar__img {
+    width: 400px;
+    height: 300px;
+  }
+}
 /*************** BROWN SUGAR STYLES END *************/
 /*********** OUR PRODUCT SECTON STYLES START ***********/
 .our-product {
@@ -925,7 +1047,7 @@ ul {
   position: absolute;
   border-radius: 27px;
   top: 50px;
-  left: 190px;
+  left: calc(50% - 580px);
 }
 
 .simple-way__title {
@@ -970,7 +1092,7 @@ ul {
   color: var(--our-text-color);
 }
 
-.simple-way__link {
+.simple-way__item--link {
   display: flex;
   align-items: center;
 }
