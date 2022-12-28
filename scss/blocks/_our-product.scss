@@ -264,8 +264,9 @@
     }
 
     .our-product__start__wrapper {
-        gap: 8px;
         margin-bottom: 30px;
+        justify-content: center;
+        gap: 8px;
     }
 
     .our-product__adele {
@@ -291,11 +292,13 @@
         margin-right: 18px;
     }
 }
+
 @media only screen and (max-width: 380px) {
     .our-product__link {
         font-size: 10px;
         line-height: 10px;
     }
+
     .man-img {
         width: 25px;
         height: 25px;
@@ -311,4 +314,5 @@
         height: 25px;
     }
 }
+
 /*********** OUR PRODUCT SECTON STYLES END ***********/
