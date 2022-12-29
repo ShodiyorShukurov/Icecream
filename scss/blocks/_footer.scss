@@ -164,7 +164,7 @@
     }
 }
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 350px) {
     .links {
         padding-top: 40px;
         gap: 5px;
@@ -183,11 +183,13 @@
         font-size: 11px;
         line-height: 12px;
     }
+
     .site-footer__email-title {
         margin-bottom: 10px;
         font-size: 14px;
         line-height: 16px;
     }
+
     .site-footer__input {
         padding: 13px 10px 13px 13px;
         font-size: 11px;

@@ -1623,7 +1623,7 @@ ul {
     line-height: 14px;
   }
 }
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 350px) {
   .links {
     padding-top: 40px;
     gap: 5px;
