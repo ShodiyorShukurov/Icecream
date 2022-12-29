@@ -1481,6 +1481,7 @@ ul {
 .site-footer__list {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   margin: 0;
 }
 
@@ -1583,4 +1584,75 @@ ul {
   gap: 15px;
 }
 
+@media only screen and (max-width: 550px) {
+  .site-footer__wrapper {
+    padding-top: 50px;
+    padding-bottom: 70px;
+  }
+  .site-footer__list {
+    text-align: center;
+  }
+  .site-footer__logo-links {
+    justify-content: center;
+  }
+  .forms {
+    padding-top: 35px;
+    margin: 0 auto;
+  }
+  .site-footer__input {
+    padding: 20px 100px 14px 15px;
+    font-size: 12px;
+    line-height: 12px;
+  }
+  .site-footer__btn {
+    padding: 17px 18px 17px 17px;
+    font-size: 16px;
+    line-height: 18px;
+  }
+  .site-footer__card-links {
+    justify-content: center;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .site-footer__input {
+    padding: 20px 50px 14px 15px;
+  }
+  .site-footer__btn {
+    padding: 19px 10px 19px 10px;
+    font-size: 13px;
+    line-height: 14px;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .links {
+    padding-top: 40px;
+    gap: 5px;
+  }
+  .information {
+    padding-top: 45px;
+  }
+  .forms {
+    padding-top: 20px;
+  }
+  .site-footer__logo-text {
+    margin-bottom: 10px;
+    font-size: 11px;
+    line-height: 12px;
+  }
+  .site-footer__email-title {
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .site-footer__input {
+    padding: 13px 10px 13px 13px;
+    font-size: 11px;
+    line-height: 11px;
+  }
+  .site-footer__btn {
+    padding: 15px 10px 15px 10px;
+    font-size: 12px;
+    line-height: 12px;
+  }
+}
 /************** FOOTER STYLES END ***********//*# sourceMappingURL=main.css.map */
