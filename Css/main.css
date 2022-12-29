@@ -1589,6 +1589,9 @@ ul {
     padding-top: 50px;
     padding-bottom: 70px;
   }
+  .site-footer__list {
+    text-align: center;
+  }
   .site-footer__logo-links {
     justify-content: center;
   }
