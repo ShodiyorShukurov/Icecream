@@ -21,6 +21,8 @@
     color: var(--our-text-color);
 }
 
+
+
 .question-section__form {
     display: flex;
     align-items: center;
@@ -81,5 +83,98 @@
     color: var(--btn-text-color);
 }
 
+@media only screen and (max-width: 750px) {
+    .question-section__wrapper {
+        padding-top: 80px;
+        padding-bottom: 50px;
+    }
+
+    .question-section__title {
+        font-size: 38px;
+        line-height: 46px;
+    }
+
+    .question-section__input {
+        padding: 20px 135px 20px 20px;
+
+    }
+
+    .qustion-section__select {
+        padding: 20px 195px 20px 20px;
+    }
+
+    .question-section__text {
+        padding: 20px 60px 20px 20px;
+    }
+
+    .question-section__btn {
+        padding: 22px 25px 20px 25px;
+        font-size: 16px;
+        line-height: 18px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .question-section__title {
+        font-size: 28px;
+        line-height: 35px;
+        margin-bottom: 20px;
+    }
+
+    .question-section__input {
+        padding: 15px 100px 15px 15px;
+
+    }
+
+    .qustion-section__select {
+        padding: 15px 157px 15px 15px;
+    }
+
+    .question-section__text {
+        padding: 15px 50px 15px 15px;
+    }
+
+    .question-section__btn {
+        padding: 17px 15px 18px 15px;
+        font-size: 13px;
+        line-height: 15px;
+    }
+}
+
+@media only screen and (max-width: 290px) {
+    .question-section__wrapper {
+        padding-top: 60px;
+        padding-bottom: 30px;
+    }
+
+    .question-section__title {
+        font-size: 22px;
+        line-height: 26px;
+        margin-bottom: 18px;
+    }
+
+    .question-section__input {
+        padding: 15px 55px 15px 15px;
+        font-size: 11px;
+        line-height: 13px;
+    }
+
+    .qustion-section__select {
+        padding: 15px 93px 15px 15px;
+        font-size: 11px;
+        line-height: 13px;
+    }
+
+    .question-section__text {
+        padding: 15px 16px 15px 15px;
+        font-size: 11px;
+        line-height: 13px;
+    }
+
+    .question-section__btn {
+        padding: 16px 10px 16px 10px;
+    }
+}
+
 /************** QUESTION SECTION STYLES END ***********/
-/************** MAIN STYLES END ************/ 
+/************** MAIN STYLES END ************/
