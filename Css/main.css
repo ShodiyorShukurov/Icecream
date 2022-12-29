@@ -1589,9 +1589,6 @@ ul {
     padding-top: 50px;
     padding-bottom: 70px;
   }
-  .site-footer__list {
-    text-align: center;
-  }
   .site-footer__logo-links {
     justify-content: center;
   }
@@ -1613,7 +1610,10 @@ ul {
     justify-content: center;
   }
 }
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 450px) {
+  .site-footer__list {
+    justify-content: center;
+  }
   .site-footer__input {
     padding: 20px 50px 14px 15px;
   }
