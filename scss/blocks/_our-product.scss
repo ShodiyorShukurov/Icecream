@@ -128,7 +128,12 @@
     text-align: end;
 }
 
+.our-product__start {
+    position: relative;
+}
+
 .our-product__start__wrapper {
+    position: relative;
     margin-bottom: 50px;
     display: flex;
     align-items: center;
@@ -152,8 +157,9 @@
 }
 
 .adele {
-    max-width: 322px;
     margin-bottom: 39px;
+    margin-left: 12px;
+    max-width: 322px;
 }
 
 .man-img {
@@ -313,6 +319,7 @@
         width: 25px;
         height: 25px;
     }
+
 }
 
 /*********** OUR PRODUCT SECTON STYLES END ***********/
